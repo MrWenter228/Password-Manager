@@ -1,67 +1,67 @@
 # Password Manager
 
-Консольний менеджер паролів, написаний на Python. Програма дозволяє зберігати дані для різних сайтів, переглядати, шукати, змінювати та видаляти паролі.
+A console-based password manager written in Python. The program allows users to store data for different websites, view, search, edit, and delete passwords.
 
-## Функціонал
+## Features
 
-* 🔐 Перевірка PIN-коду перед входом у програму
-* ➕ Додавання нових паролів
-* 📋 Перегляд усіх збережених записів
-* 🔍 Пошук пароля за назвою сайту
-* 🗑️ Видалення паролів
-* ✏️ Зміна існуючих паролів
-* 🎲 Генерація випадкових паролів
-* 💾 Збереження даних у форматі JSON
-* ⚠️ Обробка помилок при неправильному введенні даних
+* 🔐 PIN code verification before accessing the program
+* ➕ Adding new passwords
+* 📋 Viewing all saved records
+* 🔍 Searching for a password by website name
+* 🗑️ Deleting passwords
+* ✏️ Changing existing passwords
+* 🎲 Generating random passwords
+* 💾 Saving data in JSON format
+* ⚠️ Handling errors caused by incorrect user input
 
-## Використані технології
+## Technologies Used
 
 * `Python`
 * `JSON`
 * `os`
 * `random`
 
-## Як працює програма
+## How the Program Works
 
-Дані зберігаються у файлі `passwords.json`. При запуску програма перевіряє, чи існує цей файл. Якщо файл знайдено, збережені дані завантажуються автоматично.
+The data is stored in a `passwords.json` file. When the program starts, it checks whether this file exists. If the file is found, the saved data is loaded automatically.
 
-Кожен запис містить:
+Each record contains:
 
-* назву сайту;
-* ім'я користувача;
-* пароль.
+* Website name;
+* Username;
+* Password.
 
-Програма також має меню, через яке користувач може вибрати необхідну дію.
+The program also includes a menu that allows the user to choose the required action.
 
-## Що я використав у цьому проєкті
+## What I Used in This Project
 
-У процесі розробки я практикував:
+During the development of this project, I practiced:
 
-* функції (`def`);
-* цикли `while` та `for`;
-* умовні оператори `if`, `elif`, `else`;
-* списки та словники;
-* роботу з файлами;
-* формат JSON;
-* обробку помилок через `try/except`;
-* генерацію випадкових паролів.
+* Functions (`def`);
+* `while` and `for` loops;
+* Conditional statements (`if`, `elif`, `else`);
+* Lists and dictionaries;
+* Working with files;
+* JSON format;
+* Error handling using `try/except`;
+* Random password generation.
 
-## Запуск
+## Running the Project
 
-Для запуску програми необхідно мати встановлений Python.
+To run the program, Python must be installed.
 
 ```bash
 python test3.py
 ```
 
-## Майбутні покращення
+## Future Improvements
 
-У майбутньому планую додати:
+In the future, I plan to add:
 
-* шифрування паролів;
-* безпечніше зберігання даних;
-* можливість змінювати логін і назву сайту;
-* графічний інтерфейс;
-* більш складну систему авторизації.
+* Password encryption;
+* More secure data storage;
+* The ability to edit usernames and website names;
+* A graphical user interface;
+* A more advanced authentication system.
 
-> **Примітка:** цей проєкт створений для навчання та практики Python. Паролі зберігаються у JSON-файлі без шифрування, тому програму не варто використовувати для зберігання реальних конфіденційних паролів.
+> **Note:** This project was created for learning and practicing Python. Passwords are stored in a JSON file without encryption, so the program should not be used to store real confidential passwords.
