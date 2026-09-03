@@ -16,8 +16,8 @@
 
 ## Використані технології
 
-* Python
-* JSON
+* `Python`
+* `JSON`
 * `os`
 * `random`
 
