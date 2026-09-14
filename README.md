@@ -53,7 +53,7 @@ During the development of this project, I practiced:
 To run the program, Python must be installed.
 
 ```bash
-python test3.py
+python main.py
 ```
 
 ## Future Improvements
