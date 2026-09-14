@@ -20,6 +20,8 @@ A console-based password manager written in Python. The program allows users to 
 * `JSON`
 * `os`
 * `random`
+* `argon2`
+  
 
 ## How the Program Works
 
