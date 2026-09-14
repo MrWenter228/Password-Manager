@@ -39,7 +39,7 @@ The program also includes a menu that allows the user to choose the required act
 
 During the development of this project, I practiced:
 
-* Functions (`def`);
+* Functions (`def` `class`);
 * `while` and `for` loops;
 * Conditional statements (`if`, `elif`, `else`);
 * Lists and dictionaries;
